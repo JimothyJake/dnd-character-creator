@@ -1,0 +1,129 @@
+{
+    "core": {
+        "darkvision": {
+            "pretty_name": "Darkvision",
+            "description": [
+                "Darkvision. Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+            ]
+        },
+        "dwarven_resilience": {
+            "pretty_name": "Dwarven Resilience",
+            "description": [
+                "You have advantage on saving throws against poison, and you have resistance against poison damage."
+            ]
+        },
+        "dwarven_combat_training": {
+            "types": [
+                "proficiency"
+            ],
+            "pretty_name": "Dwarven Combat Training",
+            "description": [
+                "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+            ],
+            "proficiencies": [
+                {
+                    "weapon": {
+                        "choices": [
+                            {
+                                "select": 4,
+                                "options": [
+                                    {
+                                        "id": "battleaxe"
+                                    },
+                                    {
+                                        "id": "handaxe"
+                                    },
+                                    {
+                                        "id": "light_hammer"
+                                    },
+                                    {
+                                        "id": "warhammer"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "tool_proficiency": {
+            "types": [
+                "proficiency"
+            ],
+            "pretty_name": "Tool Proficiency",
+            "description": [
+                "You gain proficiency with the artisan’s tools of your choice."
+            ],
+            "proficiencies": [
+                {
+                    "tool": {
+                        "choices": [
+                            {
+                                "select": 1,
+                                "options": [
+                                    {
+                                        "id": "smiths_tools"
+                                    },
+                                    {
+                                        "id": "brewers_supplies"
+                                    },
+                                    {
+                                        "id": "masons_tools"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "stonecunning": {
+            "pretty_name": "Stonecunning",
+            "description": [
+                "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+            ]
+        }
+    },
+    "hill_dwarf": {
+        "dwarven_toughness": {
+            "types": [
+                "modifier"
+            ],
+            "pretty_name": "Dwarven Toughness",
+            "description": [
+                "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+            ],
+            "modifiers": [
+                {
+                    "target": {
+                        "stat": "max_hp"
+                    },
+                    "type": "boost",
+                    "mode": "scaling",
+                    "values": {
+                        "1": 1,
+                        "2": 2,
+                        "3": 3,
+                        "4": 4,
+                        "5": 5,
+                        "6": 6,
+                        "7": 7,
+                        "8": 8,
+                        "9": 9,
+                        "10": 10,
+                        "11": 11,
+                        "12": 12,
+                        "13": 13,
+                        "14": 14,
+                        "15": 15,
+                        "16": 16,
+                        "17": 17,
+                        "18": 18,
+                        "19": 19,
+                        "20": 20
+                    }
+                }
+            ]
+        }
+    }
+}

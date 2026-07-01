@@ -1,0 +1,329 @@
+{
+    "abilities": {
+        "strength": {
+            "pretty_name": "Strength",
+            "short_name": "STR",
+            "max": 20,
+            "score": 8
+        },
+        "dexterity": {
+            "pretty_name": "Dexterity",
+            "short_name": "DEX",
+            "max": 20,
+            "score": 8
+        },
+        "constitution": {
+            "pretty_name": "Constitution",
+            "short_name": "CON",
+            "max": 20,
+            "score": 8
+        },
+        "intelligence": {
+            "pretty_name": "Intelligence",
+            "short_name": "INT",
+            "max": 20,
+            "score": 8
+        },
+        "wisdom": {
+            "pretty_name": "Wisdom",
+            "short_name": "WIS",
+            "max": 20,
+            "score": 8
+        },
+        "charisma": {
+            "pretty_name": "Charisma",
+            "short_name": "CHA",
+            "max": 20,
+            "score": 8
+        }
+    },
+    "skills": {
+        "athletics": {
+            "pretty_name": "Athletics",
+            "ability": "strength",
+            "proficient": false,
+            "expert": false
+        },
+        "acrobatics": {
+            "pretty_name": "Acrobatics",
+            "ability": "dexterity",
+            "proficient": false,
+            "expert": false
+        },
+        "stealth": {
+            "pretty_name": "Stealth",
+            "ability": "dexterity",
+            "proficient": false,
+            "expert": false
+        },
+        "sleight_of_hand": {
+            "pretty_name": "Sleight of Hand",
+            "ability": "dexterity",
+            "proficient": false,
+            "expert": false
+        },
+        "arcana": {
+            "pretty_name": "Arcana",
+            "ability": "intelligence",
+            "proficient": false,
+            "expert": false
+        },
+        "history": {
+            "pretty_name": "History",
+            "ability": "intelligence",
+            "proficient": false,
+            "expert": false
+        },
+        "investigation": {
+            "pretty_name": "Investigation",
+            "ability": "intelligence",
+            "proficient": false,
+            "expert": false
+        },
+        "insight": {
+            "pretty_name": "Insight",
+            "ability": "wisdom",
+            "proficient": false,
+            "expert": false
+        },
+        "medicine": {
+            "pretty_name": "Medicine",
+            "ability": "wisdom",
+            "proficient": false,
+            "expert": false
+        },
+        "perception": {
+            "pretty_name": "Perception",
+            "ability": "wisdom",
+            "proficient": false,
+            "expert": false
+        },
+        "survival": {
+            "pretty_name": "Survival",
+            "ability": "wisdom",
+            "proficient": false,
+            "expert": false
+        },
+        "deception": {
+            "pretty_name": "Deception",
+            "ability": "charisma",
+            "proficient": false,
+            "expert": false
+        },
+        "intimidation": {
+            "pretty_name": "Intimidation",
+            "ability": "charisma",
+            "proficient": false,
+            "expert": false
+        },
+        "performance": {
+            "pretty_name": "Performance",
+            "ability": "charisma",
+            "proficient": false,
+            "expert": false
+        },
+        "persuasion": {
+            "pretty_name": "Persuasion",
+            "ability": "charisma",
+            "proficient": false,
+            "expert": false
+        }
+    },
+    "stats": {
+        "hit die": {
+            "pretty_name": "Hit Die",
+            "description": "The size of your hit die",
+            "values": [
+                0
+            ],
+            "quantities": [
+                0
+            ]
+        },
+        "current_hp": {
+            "pretty_name": "Hitpoints",
+            "short_name": "HP",
+            "description": [
+                "Your current hitpoints"
+            ]
+        },
+        "max_hp": {
+            "pretty_name": "Maximum Hitpoints",
+            "short_name": "Max HP",
+            "description": [
+                "Your maximum hitpoints"
+            ]
+        },
+        "temp_hp": {
+            "pretty_name": "Temporary Hitpoints",
+            "short_name": "Temp HP",
+            "description": [
+                "Your temporary hitpoints"
+            ]
+        },
+        "ac": {
+            "pretty_name": "Armor Class",
+            "short_name": "AC",
+            "description": [
+                "Your current armor class"
+            ]
+        },
+        "speeds": {
+            "walk": {
+                "pretty_name": "Walking Speed",
+                "short_name": "Walk"
+            },
+            "climb": {
+                "pretty_name": "Climbing Speed",
+                "short_name": "Climb"
+            },
+            "swim": {
+                "pretty_name": "Swimming Speed",
+                "short_name": "Swim"
+            },
+            "fly": {
+                "pretty_name": "Flying Speed",
+                "short_name": "Fly"
+            }
+        },
+        "initiative": {
+            "pretty_name": "Initiative",
+            "short_name": "Init."
+        }
+    },
+    "alignments": {
+        "lawful_good": {
+            "pretty_name": "Lawful Good",
+            "short_name": "LG",
+            "description": [
+                "Lawful good creatures can be counted on to do the right thing as expected by society. Gold dragons, paladins, and most dwarves are lawful good."
+            ]
+        },
+        "neutral_good": {
+            "pretty_name": "Neutral Good",
+            "short_name": "NG",
+            "description": [
+                "Neutral good folk do the best they can to help others according to their needs. Many celestials, some cloud giants, and most gnomes are neutral good."
+            ]
+        },
+        "chaotic_good": {
+            "pretty_name": "Chaotic Good",
+            "short_name": "CG",
+            "description": [
+                "Chaotic good creatures act as their conscience directs, with little regard for what others expect. Copper dragons, many elves, and unicorns are chaotic good."
+            ]
+        },
+        "lawful_neutral": {
+            "pretty_name": "Lawful Neutral",
+            "short_name": "LN",
+            "description": [
+                "Lawful neutral individuals act in accordance with law, tradition, or personal codes. Many monks and some wizards are lawful neutral."
+            ]
+        },
+        "neutral": {
+            "pretty_name": "Neutral",
+            "short_name": "N",
+            "description": [
+                "Neutral is the alignment of those who prefer to steer clear of moral questions and don’t take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are neutral."
+            ]
+        },
+        "chaotic_neutral": {
+            "pretty_name": "Chaotic Neutral",
+            "short_name": "CN",
+            "description": [
+                "Chaotic neutral  creatures follow their whims, holding their personal freedom above all else. Many barbarians and rogues, and some bards, are chaotic neutral."
+            ]
+        },
+        "lawful_evil": {
+            "pretty_name": "Lawful Evil",
+            "short_name": "LE",
+            "description": [
+                "Lawful evil creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils, blue dragons, and hobgoblins are lawful evil."
+            ]
+        },
+        "neutral_evil": {
+            "pretty_name": "Neutral Evil",
+            "short_name": "NE",
+            "description": [
+                "Neutral evil is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are neutral evil."
+            ]
+        },
+        "chaotic_evil": {
+            "pretty_name": "Chaotic Evil",
+            "short_name": "CE",
+            "description": [
+                "Chaotic evil creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons, red dragons, and orcs are chaotic evil."
+            ]
+        }
+    },
+    "languages": {
+        "standard": {
+            "common": {
+                "pretty_name": "Common",
+                "script": "common"
+            },
+            "dwarvish": {
+                "pretty_name": "Dwarvish",
+                "script": "dwarvish"
+            },
+            "elvish": {
+                "pretty_name": "Elvish",
+                "script": "elvish"
+            },
+            "giant": {
+                "pretty_name": "Giant",
+                "script": "dwarvish"
+            },
+            "gnomish": {
+                "pretty_name": "Gnomish",
+                "script": "dwarvish"
+            },
+            "goblin": {
+                "pretty_name": "Goblin",
+                "script": "dwarvish"
+            },
+            "halfling": {
+                "pretty_name": "Halfing",
+                "script": "common"
+            },
+            "orc": {
+                "pretty_name": "Orc",
+                "script": "dwarvish"
+            }
+        },
+        "exotic": {
+            "abyssal": {
+                "pretty_name": "Abyssal",
+                "script": "infernal"
+            },
+            "celestial": {
+                "pretty_name": "Celestial",
+                "script": "celestial"
+            },
+            "draconic": {
+                "pretty_name": "Draconic",
+                "script": "draconic"
+            },
+            "deep_speech": {
+                "pretty_name": "Deep Speech",
+                "script": ""
+            },
+            "infernal": {
+                "pretty_name": "Infernal",
+                "script": "infernal"
+            },
+            "primordial": {
+                "pretty_name": "Primordial",
+                "script": "dwarvish"
+            },
+            "sylvan": {
+                "pretty_name": "Sylvan",
+                "script": "elvish"
+            },
+            "undercommon": {
+                "pretty_name": "Undercommon",
+                "script": "elvish"
+            }
+        }
+    }
+}

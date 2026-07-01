@@ -1,0 +1,24 @@
+{
+  "subraces": {
+    "hill_dwarf": {
+      "pretty_name": "Hill Dwarf",
+      "description": [
+        "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience."
+      ],
+      "ability_score_bonus": {
+        "abilities": {
+          "choices": [
+            {
+              "select": 1,
+              "options": [
+                {
+                  "wisdom": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

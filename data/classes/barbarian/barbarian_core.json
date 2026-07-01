@@ -1,0 +1,253 @@
+{
+  "barbarian": {
+    "pretty_name": "Barbarian",
+    "hit_die": 12,
+    "multiclassing": {
+      "requirements": {
+        "abilities": [
+          {
+            "strength": 13
+          }
+        ]
+      },
+      "proficiencies": [
+        {
+          "armor": {
+            "choices": [
+              {
+                "select": 1,
+                "options": [
+                  {
+                    "id": "shields"
+                  }
+                ]
+              }
+            ]
+          },
+          "weapons": {
+            "choices": [
+              {
+                "select": 2,
+                "options": [
+                  {
+                    "tags": [
+                      "simple"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "martial"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "proficiencies": [
+      {
+        "skill": {
+          "choices": [
+            {
+              "select": 2,
+              "options": [
+                {
+                  "id": "animal_handling"
+                },
+                {
+                  "id": "athletics"
+                },
+                {
+                  "id": "intimidation"
+                },
+                {
+                  "id": "nature"
+                },
+                {
+                  "id": "perception"
+                },
+                {
+                  "id": "survival"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "saving_throw": {
+          "choices": [
+            {
+              "select": 2,
+              "options": [
+                {
+                  "id": "strength"
+                },
+                {
+                  "id": "constitution"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "armor": {
+          "choices": [
+            {
+              "select": 3,
+              "options": [
+                {
+                  "id": "light"
+                },
+                {
+                  "id": "medium"
+                },
+                {
+                  "id": "shield"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "weapons": {
+          "choices": [
+            {
+              "select": 2,
+              "options": [
+                {
+                  "tags": [
+                    "simple"
+                  ]
+                },
+                {
+                  "tags": [
+                    "martial"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "starting_equipment": {
+      "choices": [
+        {
+          "select": 1,
+          "options": [
+            {
+              "type": "pack",
+              "id": "explorers_pack"
+            }
+          ]
+        },
+        {
+          "select": 1,
+          "options": [
+            {
+              "type": "weapon",
+              "id": "javelin",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "select": 1,
+          "options": [
+            {
+              "type": "weapon",
+              "id": "greataxe"
+            },
+            {
+              "type": "weapon",
+              "tags": [
+                "martial",
+                "melee"
+              ]
+            }
+          ]
+        },
+        {
+          "select": 1,
+          "options": [
+            {
+              "type": "weapon",
+              "id": "handaxe",
+              "quantity": 2
+            },
+            {
+              "type": "weapon",
+              "tags": [
+                "simple"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "features": {
+      "1": [
+        "rage",
+        "unarmored_defense_barbarian"
+      ],
+      "2": [
+        "reckless_attack",
+        "danger_sense"
+      ],
+      "3": [
+        "choose_subclass"
+      ],
+      "4": [
+        "ability_score_improvement"
+      ],
+      "5": [
+        "extra_attack",
+        "fast_movement"
+      ],
+      "6": [],
+      "7": [
+        "feral_instinct"
+      ],
+      "8": [
+        "ability_score_improvement"
+      ],
+      "9": [
+        "brutal_critical"
+      ],
+      "10": [],
+      "11": [
+        "relentless_rage"
+      ],
+      "12": [
+        "ability_score_improvement"
+      ],
+      "13": [
+        "brutal_critical"
+      ],
+      "14": [],
+      "15": [
+        "persistent_rage"
+      ],
+      "16": [
+        "ability_score_improvement"
+      ],
+      "17": [
+        "brutal_critical"
+      ],
+      "18": [
+        "indomitable_might"
+      ],
+      "19": [
+        "ability_score_improvement"
+      ],
+      "20": [
+        "primal_champion"
+      ]
+    }
+  }
+}

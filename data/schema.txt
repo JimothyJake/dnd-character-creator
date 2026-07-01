@@ -1,0 +1,43 @@
+
+# --- MODIFIER SCHEMA ---
+modifier: {
+    "target": {
+        "category": "stat|ability|save|skill",
+        "id": "string"
+    },
+    "type": "boost|set",
+    "mode": {
+        "scaling": {
+            "level": "character|class",
+            "values": [int, 20]
+        },
+        "static": {
+            "value": int
+        },
+        "formula": {
+            "abilities": [string],
+            "value": int
+        }
+    }
+}
+
+# --- CHOICE SCHEMA ---
+"choices": [
+    {
+        "select": int,
+        "options": [ #always an array of objects
+            {
+                "type": "item|feature|spell",
+                "id": "string", # if specific
+                "tags": [string] # if non-specific (any melee martial weapon)
+                "quantity": int # if >1
+            },
+            {
+                "type": "",
+                "id": "",
+                "tags": ["",""],
+                "quantity": int,
+            }
+        ]
+    }
+]

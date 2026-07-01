@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>D&D Character Creator</title>
+</head>
+<body>
+    <h1>Characters</h1>
+    
+        {% for category_name, category_data in REGISTRY.items() %}
+            <h2>{{ category_name }}</h2>
+            
+            {# Loop through the individual items using .items() #}
+            {% for item_name, item_details in category_data.items() %}
+                <h3>{{ item_name }}</h3>
+                
+                {# If item_details is another dictionary, loop through its properties #}
+                {% if item_details is mapping %}
+                    {% for property_name, property_value in item_details.items() %}
+                        <br> <p><strong>{{ property_name }}:</strong> {{ property_value }}</p>
+                    {% endfor %}
+                {% else %}
+                    {# If it is just a plain string or list #}
+                    <br> <p>This is a string: <br> {{ item_details }}</p>
+                {% endif %}
+                
+            {% endfor %}
+        {% endfor %}    
+</body>
+</html>
